@@ -1,0 +1,86 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+# 	* crm_order
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 18.0-20250725\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2025-08-04 23:15+0000\n"
+"PO-Revision-Date: 2025-08-04 23:15+0000\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: \n"
+"Plural-Forms: \n"
+
+#. module: crm_order
+#: model_terms:ir.ui.view,arch_db:crm_order.crm_lead_view_inherit
+msgid "Approve order"
+msgstr "Aprobar orden"
+
+#. module: crm_order
+#: model:ir.model.fields.selection,name:crm_order.selection__crm_lead__x_lead_category__business
+msgid "Business"
+msgstr "Empresarial"
+
+#. module: crm_order
+#: model:ir.model.fields.selection,name:crm_order.selection__crm_lead__x_lead_category__governmental
+msgid "Governmental"
+msgstr "Gubernamental"
+
+#. module: crm_order
+#: model:ir.model,name:crm_order.model_crm_lead
+msgid "Lead/Opportunity"
+msgstr "Portunidad"
+
+#. module: crm_order
+#: model:ir.model.fields.selection,name:crm_order.selection__crm_lead__x_lead_category__residential
+msgid "Residential"
+msgstr "Residencial"
+
+#. module: crm_order
+#: model:ir.model.fields,field_description:crm_order.field_crm_lead__x_lead_category
+msgid "X Lead Category"
+msgstr "Categoría"
+
+#. module: crm_order
+#: model:ir.model.fields,field_description:crm_order.field_crm_lead__x_approved_date
+msgid "x Approved Adate"
+msgstr "Fecha de aprobación"
+
+#. module: crm_order
+#: model:ir.model.fields,field_description:crm_order.field_crm_lead__x_approved_by
+msgid "x Approved By"
+msgstr "Aprobado por"
+
+#. module: crm_order
+#: model:ir.model.fields,field_description:crm_order.field_crm_lead__x_delivery_deadline
+msgid "x Delivery Deadline"
+msgstr "Plazo de entrega"
+
+#. module: crm_order
+#: model:ir.model.fields,field_description:crm_order.field_crm_lead__x_duration_since_approved
+msgid "x Duration since approved"
+msgstr "Duración desde aprobado"
+
+#. module: crm_order
+#: model:ir.model.fields,field_description:crm_order.field_crm_lead__x_installation_date
+msgid "x Installation Date"
+msgstr "Fecha de instalación"
+
+#. module: crm_order
+#: model:ir.model.fields,field_description:crm_order.field_crm_lead__x_installation_required
+msgid "x Installation Required"
+msgstr "Requiere instalación"
+
+#. module: crm_order
+#: model:ir.model.fields,field_description:crm_order.field_crm_lead__x_support_required
+msgid "x Support Required"
+msgstr "Requiere soporte"
+
+#. module: crm_order
+#: model:ir.model.fields,field_description:crm_order.field_crm_lead__x_contract_reference
+msgid "x contract reference"
+msgstr "Referencia de contrato"

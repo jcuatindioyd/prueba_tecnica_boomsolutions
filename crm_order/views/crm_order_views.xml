@@ -1,0 +1,32 @@
+<?xml version="1.0"?>
+<odoo>
+
+    <record id="crm_lead_view_inherit" model="ir.ui.view">
+        <field name="name">crm.lead.view.inheritt</field>
+        <field name="model">crm.lead</field>
+        <field name="inherit_id" ref="crm.crm_lead_view_form"/>
+        <field name="arch" type="xml">
+            <xpath expr="//group[@name='lead_priority']" position="after">
+                <group>
+                    <field name="x_installation_date"/>
+                    <field name="x_contract_reference">
+                        <attribute name="pattern">\d+</attribute>
+                    </field>
+                    <field name="x_support_required"/>
+                    <field name="x_approved_by" readonly="1"/>
+                    <field name="x_duration_since_approved"/>
+                </group>
+                <group>
+                    <field name="x_lead_category"/>
+                    <field name="x_approved_date"/>
+                    <field name="x_installation_required"/>
+                    <field name="x_delivery_deadline" readonly="1"/>
+                </group>
+            </xpath>
+            <xpath expr="//button[@name='action_set_won_rainbowman']" position="after">
+                <button name="action_approve_order" string="Approve order" type="object" class="oe_highlight" title="Approve order" invisible="type == 'lead'"/>
+            </xpath>
+        </field>
+    </record>
+
+</odoo>
